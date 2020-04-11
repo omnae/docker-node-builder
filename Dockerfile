@@ -1,7 +1,7 @@
 FROM node:13-alpine
 
 # Install core packages
-RUN apk update && apk add --no-cache bash curl
+RUN apk update && apk add --no-cache bash curl git
 
 # Install Python and PIP
 RUN apk add --no-cache py-pip && \
