@@ -1,4 +1,4 @@
-FROM node:13-alpine
+FROM node:14-alpine
 
 # Install core packages
 RUN apk update && apk add --no-cache bash curl git
