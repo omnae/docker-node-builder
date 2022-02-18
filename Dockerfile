@@ -13,3 +13,5 @@ RUN pip3 --no-cache-dir install azure-cli==2.10.1
 
 # Cleanup
 RUN apk del --purge build && rm -rf /var/cache/apk/*
+
+RUN yarn config set ignore-engines true
